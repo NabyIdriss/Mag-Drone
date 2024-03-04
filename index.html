@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <p class="header-p">Pixel<span>Light</span><i class='bx bxs-hot'></i></p>  
+        <nav>
+            <ul class="nav-ul">
+                <li><a class="active"  href="#">Accueil</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+            <ul class="social-ul">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+            </ul>
+        
+    </header>
+    <section class="container">
+        <div class="home">
+            <div  class="home-text">
+                <p class="home-p">Pixel<span>Light</span></p> 
+                <div class="home-info">
+                    Nous sommes une entreprise des nouvelles technologies liées à l’utilisation des drones et applications. 
+                    Elle vous offre son expertise et son savoir-faire sans équivoque pour tous vos travaux dans divers domaines d’activité.
+                </div>
+                <p class="home-p home-p-service">Nos service</p>
+                <ul class="home-ul">
+                    <li class="home-li home-info">Ortho photoplan géoréférencé </li>
+                    <li class="home-li  home-info">Plans topographiques (plan topo, plan de masse)</li>
+                    <li class="home-li  home-info">Modèles Numériques de Terrain et de surface </li>
+                    <li class="home-li  home-info">Rapport de volumes de stocks, cubatures et de surfaces</li>
+                </ul>
+            </div>
+            <div class="home-img">
+                <img class="home-img"  src="img/djib.png" alt="image du drone dji phantôme 4 Pro"  id="home-img">
+            </div>
+        </div>
+
+        <div class="container-btn">
+            <button class="btn-1  btn" >Plus d'informations</button>
+            <button class="btn-2  btn" >Plus de produits</button>
+        </div>
+      <button> <i class='bx bx-down-arrow-alt  container-down'  onclick="down()"></i></button>
+    </section>
+    <!-- MENU -->
+    <section class="menu">
+        <p class="menu-p">
+            Nos Services
+        </p>
+        <div class="service">
+            <div class="box">
+                <p class="box-p">Télédection et Photogramétrie</p>
+                <div class="box-imgp">
+                    <img src="img/services/topo.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Les levés topo par DRONE répondent avec méthodes
+                            aux plus hautes exigences des géomètres et topographes
+                            pour des plans topographiques de terrains. 
+                            Le drone a la capacité de couvrir de grandes 
+                            zones.
+                    </p>
+                </div>    
+            </div>
+
+            <div class="box">
+                <p class="box-p">Suivi de chantier</p>
+                <div class="box-imgp">
+                    <img src="img/services/chantier.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Prise de vues aériennes et terrestres (photos et vidéos)
+                         pour suivre l’avancement des travaux sur différentes périodes
+                          (début du projet-fin projet).
+                    </p>
+                </div>   
+            </div>
+
+            <div class="box">
+                <p class="box-p">Expertise Immobilière</p>
+                <div class="box-imgp">
+                    <img src="img/services/tele.png" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Il aidera les professionnels à réaliser une expertise
+                         précise des travaux à réaliser en s’approchant au plus
+                          près des parties à contrôler sans avoir à mettre en place
+                           des moyens logistiques lourds et onéreux.
+                    </p>
+                </div>   
+            </div>
+
+            <div class="box">
+                <p class="box-p">Modélisation 3D</p>
+                <div class="box-imgp">
+                    <img src="img/services/mod3D.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        La modélisation 3D est aussi très utile dans la sauvegarde de patrimoine afin de figer l’état d’un monument à une date précise.   
+                    </p>
+                </div>  
+            </div>
+
+            <div class="box">
+                <p class="box-p">Inspection Industrielle</p>
+                <div class="box-imgp">
+                    <img src="img/services/inspection.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Il facilite l’inspection dans des zones en hauteur, par exemple, sur des éoliennes, des panneaux photovoltaïques, des barrages et des toitures, avec les avantages d’un gain de temps et d’argent.
+                    </p>
+                </div>  
+            </div>
+
+            <div class="box">
+                <p class="box-p">Thermographie</p>
+                <div class="box-imgp">
+                    <img src="img/services/thermo1.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Réalision des vues aériennes de l’ensemble des différente faces du bâtis permettant de déterminer avec précision les différente déperditions thermiques de la construction. 
+                    </p>
+                </div>  
+            </div>
+
+            <div class="box">
+                <p class="box-p">Agriculture</p>
+                <div class="box-imgp">
+                    <img src="img/services/agriculture.jpg" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Cartographie de tous types de parcelles agricoles de quelques mètres carrés à plusieurs hectares dans le but d’assister l’agriculteur pour analyser, diagnostiquer ou connaître les surfaces exactes des parcelles. 
+                    </p>
+                </div>  
+            </div>
+
+            <div class="box">
+                <p class="box-p">Volume et Cubature</p>
+                <div class="box-imgp">
+                    <img src="img/services/cubature.png" alt="" class="box-img">
+                    <p class="box-descrip">
+                        Connaître les stocks de granulats (sable, graviers, ou autres), estimer les volumes à déplacer sont une aide à la gestion pour les travaux publiques et l’aménagement du territoire, la rehausse de digues.                    </p>
+                </div>  
+            </div>
+        </div>
+    </section>
+  <!-- CONTACTS -->
+    <section class="contact">
+        <p class="contact-p">Ecrivez-nous</p>
+        <div class="contact-grid">
+            <div class="message">
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" name="" id="name" required>
+                        <label for="name">Nom :</label>
+                        <i class='bx bx-edit'></i>
+                    </div>
+    
+                    <div class="input-box">
+                        <input type="text" name="" id="prenom" required>
+                        <label for="prenom">Prénom :</label>
+                        <i class='bx bx-edit'></i>
+                    </div>
+    
+                    <div class="input-box">
+                        <input type="text" name="" id="mail" required>
+                        <label for="mail">Email :</label>
+                        <i class='bx bxl-gmail'></i>
+                    </div>
+    
+                    <div class="input-box">
+                        <input type="password" name="" id="password" required>
+                        <label for="password">Password :</label>
+                        <i class='bx bx-lock-alt'></i>
+                    </div>
+
+                    <div class="label">
+                        <p>Laissez-nous un commentaire<i class='bx bxs-hand-down'></i></p> <br>
+                        <textarea name="area" id="area" cols="30" rows="10"  aria-placeholder="Laissez-nous commentaire">
+                
+                        </textarea> 
+                    </div>
+
+                    <button class="contact-btn" type="submit" value="Envoyer">  Envoyer </button>
+                    <button class="contact-btn"  type="reset" value="Envoyer">  Effacer </button>
+                </form>
+
+            </div>
+            
+            <div class="contact-dg">
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3XC-TtALZuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/r0v9dt1s8PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+
+        </div>  
+    </section>
+    <footer>
+        Pixel<span>Light</span>2023 Tous droits réservés   
+    </footer>
+<script src="scritp.js"></script>
+</body>
+</html>
